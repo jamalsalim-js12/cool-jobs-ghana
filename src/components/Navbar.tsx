@@ -1,6 +1,6 @@
 import Logo from "./Logo";
-import CalendarIcon from "../../public/calendar.svg";
-import EstimateIcon from "../../public/estimate.svg";
+import CalendarIcon from "/calendar.svg";
+import EstimateIcon from "/estimate.svg";
 
 const Navbar = () => {
   return (

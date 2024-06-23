@@ -1,7 +1,7 @@
 import Logo from "../Logo";
-import InstagramLogo from "../../../public/instagram.svg";
-import FacebookLogo from "../../../public/facebook.svg";
-import TwitterLogo from "../../../public/twitter.svg";
+import InstagramLogo from "/instagram.svg";
+import FacebookLogo from "/facebook.svg";
+import TwitterLogo from "/twitter.svg";
 
 const Footer = () => {
   return (

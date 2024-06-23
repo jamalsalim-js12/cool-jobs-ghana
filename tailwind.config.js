@@ -14,7 +14,7 @@ module.exports = {
       gothic: ["League Gothic", "sans-serif"],
     },
     backgroundImage: {
-      heroBackground: "url('/public/hero-background.png')",
+      heroBackground: "url('/public/hero-background.webp')",
     },
 
     colors: {
