@@ -1,5 +1,6 @@
 import App from "@/App";
 import Home from "@/pages/Home";
+import Services from "@/pages/Services";
 import { createBrowserRouter } from "react-router-dom";
 
 const AppRouter = createBrowserRouter([
@@ -10,6 +11,11 @@ const AppRouter = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+        index: true,
+      },
+      {
+        path: "/services",
+        element: <Services />,
         index: true,
       },
     ],
