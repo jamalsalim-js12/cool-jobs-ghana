@@ -1,9 +1,14 @@
-import { Button } from "@/components/ui/button";
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/ui/Footer";
+
 const App = () => {
   return (
-    <div className="m-5">
-      <Button size="default">Click me</Button>
-    </div>
+    <>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </>
   );
 };
 

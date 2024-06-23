@@ -2,13 +2,26 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      sans: ["Rubik", "sans-serif"],
+      gothic: ["League Gothic", "sans-serif"],
+    },
+    backgroundImage: {
+      heroBackground: "url('hero-background.png')",
+    },
+
+    colors: {
+      "custom-light-green": "#1C9D98",
+      "custom-deep-green": "#165250",
+      "custom-light-gray": "#FFF9F0",
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -74,4 +87,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
